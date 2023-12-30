@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import ReactFullpage from "@fullpage/react-fullpage";
-import Head from 'next/head'
+import Head from 'next/head';
 
 // NOTE: if using fullpage extensions/plugins put them here and pass it as props.
 const pluginWrapper = () => {
@@ -20,7 +20,7 @@ class App extends React.Component {
       sectionsColor: [...originalColors],
       fullpages: [
         {
-          text: "Section 1"
+          text: "Sect"
         },
         {
           text: "Section 2"

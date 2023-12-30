@@ -20,7 +20,8 @@
     "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && NODE_ENV=prod webpack --mode production --progress --mode production --config webpack.config.build.js",
     "test:cypress": "npx cypress run --spec 'cypress/integration/*'",
     "test:jest": "npx jest",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "lint": "eslint --ext \".js,.vue\" --ignore-path .gitignore . --fix"
   },
   "repository": {
     "type": "git",
@@ -52,7 +53,6 @@
     "jest": "^27.1.0",
     "jest-dom": "^3.0.1",
     "kcd-scripts": "^11.2.0",
-    "node-sass": "6.0.1",
     "prettier": "^2.3.2",
     "prettier-eslint": "^13.0.0",
     "react": "^17.0.2",
@@ -68,6 +68,8 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
-    "fullpage.js": "^4.0.20"
+    "fullpage.js": "^4.0.20",
+    "sass": "^1.69.6",
+    "styled-components": "^6.1.6"
   }
 }

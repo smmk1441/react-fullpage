@@ -22,7 +22,7 @@ class App extends React.Component {
       sectionsColor: [...originalColors],
       fullpages: [
         {
-          text: 'Section 1',
+          text: 'Sect',
         },
         {
           text: 'Section 2',

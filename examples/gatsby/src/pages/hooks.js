@@ -6,9 +6,9 @@ const SECTION_SEL = `.${SEL}`;
 
 // NOTE: if using fullpage extensions/plugins put them here and pass it as props.
 const pluginWrapper = () => {
-    /*
-    * require('./fullpage.fadingEffect.min'); // Optional. Required when using the "fadingEffect" extension.
-    */
+/*
+require('./fullpage.fadingEffect.min'); // Optional. Required when using the "fadingEffect" extension.
+*/
 };
 
 const
