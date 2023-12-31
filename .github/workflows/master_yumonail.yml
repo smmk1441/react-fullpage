@@ -54,3 +54,4 @@ jobs:
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3EFED1F72CB049B2981A182720BB6BD4 }}
+          enable-diff-deploy: true
